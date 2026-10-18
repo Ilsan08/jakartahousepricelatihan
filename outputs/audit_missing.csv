@@ -1,0 +1,9 @@
+kolom,tipe_asli,missing_mentah,missing_setelah_parse,persen_missing_setelah_parse
+district,str,0,0,0.0
+city,str,0,0,0.0
+bed_rooms,int64,0,0,0.0
+bath_rooms,int64,0,0,0.0
+carport,int64,0,0,0.0
+land_area,float64,3,3,0.03
+building_area,float64,5,5,0.05
+price,int64,0,0,0.0

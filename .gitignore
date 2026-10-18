@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+models/*.joblib
+outputs/*.csv
+outputs/*.json
+outputs/*.txt
+outputs/figures/*.png
+data/*.csv

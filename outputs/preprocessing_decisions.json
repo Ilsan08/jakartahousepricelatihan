@@ -1,0 +1,15 @@
+{
+  "baris_awal": 10000,
+  "hapus_target_hilang_tidak_positif": 0,
+  "fitur_tidak_valid_diubah_nan_untuk_imputasi_fold": {
+    "land_area": 0,
+    "building_area": 0,
+    "bed_rooms": 0,
+    "bath_rooms": 0,
+    "carport": 0
+  },
+  "hapus_duplikat_persis_fitur_dan_target": 526,
+  "baris_setelah_clean": 9474,
+  "nilai_ekstrem_harga": "Dipertahankan; tidak ada clipping winsorizing atau outlier deletion otomatis.",
+  "kolom_index": "Tidak menjadi prediktor."
+}

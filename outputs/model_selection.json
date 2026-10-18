@@ -1,0 +1,13 @@
+{
+  "selected_by_train_cv": "xgboost",
+  "selected_by_train_cv_label": "XGBoost",
+  "holdout_lowest_rmse_model_for_reporting_only": "random_forest",
+  "warning": "Deployment model dipilih dari minimum RMSE CV data latih, bukan dari hasil test. Jangan beralih ke model holdout lebih rendah setelah melihat test.",
+  "segment_thresholds_train_rupiah": {
+    "q33": 2900000000.0,
+    "q67": 7400000000.0
+  },
+  "train_rows": 7579,
+  "test_rows": 1895,
+  "train_test_overlap_row_indices": 0
+}

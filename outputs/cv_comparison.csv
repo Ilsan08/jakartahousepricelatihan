@@ -1,0 +1,4 @@
+model,nama_model,transformasi,CV_RMSE_mean,CV_RMSE_std,best_params
+xgboost,XGBoost,log1p,11762875801.6,4625545174.3842945,"{""regressor__model__subsample"": 1.0, ""regressor__model__reg_lambda"": 5, ""regressor__model__reg_alpha"": 0, ""regressor__model__n_estimators"": 200, ""regressor__model__max_depth"": 10, ""regressor__model__learning_rate"": 0.1, ""regressor__model__colsample_bytree"": 0.8}"
+random_forest,Random Forest,log1p,11995983767.48522,4794047165.930952,"{""regressor__model__n_estimators"": 800, ""regressor__model__min_samples_split"": 2, ""regressor__model__min_samples_leaf"": 1, ""regressor__model__max_features"": 1.0, ""regressor__model__max_depth"": null}"
+linear_regression,Regresi Linear Berganda,raw,13477480691.527431,3893408772.545494,{}

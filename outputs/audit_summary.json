@@ -1,0 +1,41 @@
+{
+  "baris_awal": 10000,
+  "kolom_awal": 9,
+  "kolom_asli": [
+    "index",
+    "price",
+    "district",
+    "city",
+    "bed_rooms",
+    "bath_rooms",
+    "carport",
+    "land_area",
+    "building_area"
+  ],
+  "baris_duplikat_seluruh_kolom": 0,
+  "baris_duplikat_fitur_dan_target": 526,
+  "jumlah_missing_mentah": 8,
+  "jumlah_missing_setelah_parse": 8,
+  "jumlah_city": 5,
+  "jumlah_district": 253,
+  "district_muncul_di_lebih_satu_city": 1,
+  "harga_min": 1850000.0,
+  "harga_median": 4500000000.0,
+  "harga_max": 900000000000.0,
+  "harga_skewness": 13.663725742704642,
+  "nilai_tidak_valid": {
+    "price_kosong_atau_tidak_terbaca": 0,
+    "price_tidak_positif": 0,
+    "land_area_tidak_positif": 0,
+    "building_area_tidak_positif": 0,
+    "bed_rooms_negatif": 0,
+    "bath_rooms_negatif": 0,
+    "carport_negatif": 0,
+    "bed_rooms_pecahan": 0,
+    "bath_rooms_pecahan": 0,
+    "carport_pecahan": 0,
+    "bed_rooms_nol_suspek": 198,
+    "bath_rooms_nol_suspek": 198
+  },
+  "catatan": "Audit seluruh data hanya untuk deskripsi kualitas. Pemilihan log, imputasi, encoding, dan tuning TIDAK memakai statistik holdout."
+}

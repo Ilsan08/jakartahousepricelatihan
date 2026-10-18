@@ -1,0 +1,1128 @@
+{
+  "selected_by_train_cv": "xgboost",
+  "selected_by_train_cv_label": "XGBoost",
+  "holdout_lowest_rmse_model_for_reporting_only": "random_forest",
+  "warning": "Deployment model dipilih dari minimum RMSE CV data latih, bukan dari hasil test. Jangan beralih ke model holdout lebih rendah setelah melihat test.",
+  "segment_thresholds_train_rupiah": {
+    "q33": 2900000000.0,
+    "q67": 7400000000.0
+  },
+  "train_rows": 7579,
+  "test_rows": 1895,
+  "train_test_overlap_row_indices": 0,
+  "city_options": [
+    "Jakarta Barat",
+    "Jakarta Pusat",
+    "Jakarta Selatan",
+    "Jakarta Timur",
+    "Jakarta Utara"
+  ],
+  "district_city_pairs": [
+    {
+      "district": "Alfa Indah",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Angke",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Bandara",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Bojong Indah",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Cengkareng",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Cengkareng Barat",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Citra Garden",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Daan Mogot",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Duri Kepa",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Duri Kosambi",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Duri Pulo",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Duta Garden",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Gelong Baru",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Green Garden",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Green Lake City",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Green Mansion",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Green Ville",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Grogol",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Intercon",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Jalan Panjang",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Jelambar",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Jembatan Besi",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Jembatan Dua",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Jembatan Lima",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Joglo",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kalideres",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kav Dki",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kebon Jeruk",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kedoya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kedoya Baru",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kedoya Selatan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kelapa Dua",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kemanggisan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kembangan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kembangan Selatan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kota",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Kota Bambu Selatan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Mangga Besar",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Mangga Dua",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Meruya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Metland Puri",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Metro Permata",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Palmerah",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Pegadungan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Permata Buana",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Puri Indah",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Puri Mansion",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Puri Media",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Rawa Buaya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Semanan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Slipi",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Srengseng",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Sunrise Garden",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Cosmos",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Kencana",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Kota",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Meruya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Palem",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Ratu",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Taman Surya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tamansari",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tambora",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tanjung Duren",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tanjung Duren Selatan",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tanjung Duren Utara",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tawakal",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tomang",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Tubagus Angke",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Villa Meruya",
+      "city": "Jakarta Barat"
+    },
+    {
+      "district": "Bendungan Hilir",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Bungur",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Cempaka Putih",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Cideng",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Cikini",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Gajah Mada",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Gambir",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Gondangdia",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Gunung Sahari",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Johar Baru",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Karang Anyar",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Karet Tengsin",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Kartini",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Kebon Kacang",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Kebon Sirih",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Kemayoran",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Kramat",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Menteng",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Menteng Atas",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Pangeran Jayakarta",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Pasar Baru",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Pegangsaan",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Pejompongan",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Percetakan Negara",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Petojo",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Roxy",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Salemba",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Sawah Besar",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Senen",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Sumur Batu",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Tanah Abang",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Thamrin",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Wahid Hasyim",
+      "city": "Jakarta Pusat"
+    },
+    {
+      "district": "Ampera",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Antasari",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Bangka",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Bintaro",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Blok M",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Casablanca",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Ciganjur",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cilandak",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cinere",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cipedak",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cipete",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cipulir",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Cirendeu",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Duren Tiga",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Fatmawati",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Gandaria",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Gatot Subroto",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Graha Bintaro",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Gudang Peluru",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Guntur",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Jagakarsa",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Jati Padang",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Jeruk Purut",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kalibata",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Karet",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kebagusan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kebayoran Baru",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kebayoran Lama",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kemang",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Kuningan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Lebak Bulus",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Lenteng Agung",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Mampang",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Mampang Prapatan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Manggarai",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Mega Kuningan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Menteng Dalam",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pakubuwono",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pancoran",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Panglima Polim",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pasar Minggu",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Patal Senayan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Patra Kuningan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pejaten",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pejaten Timur",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pengadegan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Permata Hijau",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pesanggrahan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Petukangan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pondok Indah",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pondok Labu",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Pondok Pinang",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Prapanca",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Radio Dalam",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Ragunan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Rempoa Ciputat Timur",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Scbd",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Sektor 1 - Bintaro",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Sektor 2 - Bintaro",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Sektor 3 - Bintaro",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Senayan",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Senopati",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Setiabudi",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Simprug",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Simprug Garden",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Sultan Agung",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Tanah Kusir",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Tanjung Barat",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Tb Simatupang",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Tebet",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Terogong",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Ulujami",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Veteran",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Warung Buncit",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Wijaya",
+      "city": "Jakarta Selatan"
+    },
+    {
+      "district": "Bambu Apus",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Buaran",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cakung",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cawang",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cibubur",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cijantung",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cilangkap",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cipayung",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cipinang",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Cipinang Melayu",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Ciracas",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Citra Grand",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Condet",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Duren Sawit",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Jakarta Garden City",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Jatinegara",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Jatiwaringin",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kalimalang",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kalisari",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kampung Ambon",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kampung Rambutan",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kayu Putih",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Klender",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kota Wisata",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Kramat Jati",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Legenda Wisata",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Lubang Buaya",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Makasar",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Matraman",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Metland Menteng",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Otista",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pasar Rebo",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Penggilingan",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pondok Bambu",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pondok Gede",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pondok Kelapa",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pondok Kopi",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pondok Ranggon",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pulo Asem",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pulo Gadung",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pulogebang",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Pulomas",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Raffles Hills",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Rawamangun",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Ruko Rawa Lumbu",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Setu",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Utan Kayu",
+      "city": "Jakarta Timur"
+    },
+    {
+      "district": "Ancol",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Bandengan",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Cilincing",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Golf Island",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Kamal",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Kapuk",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Kapuk Muara",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Kelapa Gading",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Koja",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Marunda",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Muara Karang",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pademangan",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pantai Indah Kapuk",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pantai Indah Kapuk 2",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pantai Mutiara",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pegangsaan",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Penjaringan",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Pluit",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Rawa Badak",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Rorotan",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Sunter",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Taman Grisenda",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Tanjung Priok",
+      "city": "Jakarta Utara"
+    },
+    {
+      "district": "Teluk Gong",
+      "city": "Jakarta Utara"
+    }
+  ],
+  "default_numeric": {
+    "bed_rooms": 4.0,
+    "bath_rooms": 3.0,
+    "carport": 1.0,
+    "land_area": 180.0,
+    "building_area": 230.0
+  },
+  "numeric_ranges_train": {
+    "bed_rooms": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 4.0,
+      "p99": 15.0,
+      "max": 63.0
+    },
+    "bath_rooms": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 3.0,
+      "p99": 10.0,
+      "max": 61.0
+    },
+    "carport": {
+      "min": 0.0,
+      "p01": 0.0,
+      "median": 1.0,
+      "p99": 10.0,
+      "max": 31.0
+    },
+    "land_area": {
+      "min": 1.0,
+      "p01": 32.0,
+      "median": 180.0,
+      "p99": 1621.5,
+      "max": 17714.0
+    },
+    "building_area": {
+      "min": 1.0,
+      "p01": 40.0,
+      "median": 230.0,
+      "p99": 1500.0,
+      "max": 15331.0
+    }
+  },
+  "audit_summary": {
+    "baris_awal": 10000,
+    "kolom_awal": 9,
+    "kolom_asli": [
+      "index",
+      "price",
+      "district",
+      "city",
+      "bed_rooms",
+      "bath_rooms",
+      "carport",
+      "land_area",
+      "building_area"
+    ],
+    "baris_duplikat_seluruh_kolom": 0,
+    "baris_duplikat_fitur_dan_target": 526,
+    "jumlah_missing_mentah": 8,
+    "jumlah_missing_setelah_parse": 8,
+    "jumlah_city": 5,
+    "jumlah_district": 253,
+    "district_muncul_di_lebih_satu_city": 1,
+    "harga_min": 1850000.0,
+    "harga_median": 4500000000.0,
+    "harga_max": 900000000000.0,
+    "harga_skewness": 13.663725742704642,
+    "nilai_tidak_valid": {
+      "price_kosong_atau_tidak_terbaca": 0,
+      "price_tidak_positif": 0,
+      "land_area_tidak_positif": 0,
+      "building_area_tidak_positif": 0,
+      "bed_rooms_negatif": 0,
+      "bath_rooms_negatif": 0,
+      "carport_negatif": 0,
+      "bed_rooms_pecahan": 0,
+      "bath_rooms_pecahan": 0,
+      "carport_pecahan": 0,
+      "bed_rooms_nol_suspek": 198,
+      "bath_rooms_nol_suspek": 198
+    },
+    "catatan": "Audit seluruh data hanya untuk deskripsi kualitas. Pemilihan log, imputasi, encoding, dan tuning TIDAK memakai statistik holdout."
+  },
+  "preprocessing_decisions": {
+    "baris_awal": 10000,
+    "hapus_target_hilang_tidak_positif": 0,
+    "fitur_tidak_valid_diubah_nan_untuk_imputasi_fold": {
+      "land_area": 0,
+      "building_area": 0,
+      "bed_rooms": 0,
+      "bath_rooms": 0,
+      "carport": 0
+    },
+    "hapus_duplikat_persis_fitur_dan_target": 526,
+    "baris_setelah_clean": 9474,
+    "nilai_ekstrem_harga": "Dipertahankan; tidak ada clipping winsorizing atau outlier deletion otomatis.",
+    "kolom_index": "Tidak menjadi prediktor."
+  },
+  "target_unit": "IDR (rupiah)",
+  "target_meaning": "Harga penawaran dalam listing, bukan harga transaksi final",
+  "features": [
+    "district",
+    "city",
+    "bed_rooms",
+    "bath_rooms",
+    "carport",
+    "land_area",
+    "building_area"
+  ],
+  "split_random_state": 42,
+  "cv_folds": 5,
+  "evaluation_note": "RMSE/MAE/MSE dievaluasi dalam rupiah setelah inverse_transform target."
+}

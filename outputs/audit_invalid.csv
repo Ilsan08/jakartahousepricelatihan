@@ -1,0 +1,13 @@
+indikator,jumlah
+price_kosong_atau_tidak_terbaca,0
+price_tidak_positif,0
+land_area_tidak_positif,0
+building_area_tidak_positif,0
+bed_rooms_negatif,0
+bath_rooms_negatif,0
+carport_negatif,0
+bed_rooms_pecahan,0
+bath_rooms_pecahan,0
+carport_pecahan,0
+bed_rooms_nol_suspek,198
+bath_rooms_nol_suspek,198

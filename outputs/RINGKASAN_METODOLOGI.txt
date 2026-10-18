@@ -1,0 +1,10 @@
+Penelitian: Ilsan Hidayatuloh, NPM 41155050230013
+Tiga model, tujuh fitur identik, train-test 80:20, seed 42.
+Imputasi dan OHE di dalam pipeline per CV fold.
+Raw/log1p target dan hiperparameter diseleksi HANYA melalui CV train.
+RMSE CV menjadi kriteria pemilihan deployment sebelum melihat holdout.
+Holdout 20% dievaluasi sekali untuk laporan ketiga model; tidak untuk retuning.
+Residual = aktual - prediksi. Ambang segmen ditetapkan dari train.
+Catatan: random split tidak dapat mengatasi listing properti yang sama bila muncul dengan atribut hampir identik; tidak tersedia property_id.
+CV per fold setelah hyperparameter search adalah NON-NESTED, jangan diklaim unbiased.
+Keamanan: joblib hanya muat dari folder model tepercaya.
