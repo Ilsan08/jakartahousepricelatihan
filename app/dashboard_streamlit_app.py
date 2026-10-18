@@ -1,6 +1,8 @@
+"""Dashboard skripsi Jakarta House Price — Ilsan Hidayatuloh.
 
-"""Dashboard Streamlit Skripsi — Ilsan Hidayatuloh."""
-
+File ini hanya memuat hasil eksperimen dan pipeline model yang telah dilatih.
+Tidak ada fit maupun tuning ulang pada saat deployment.
+"""
 from __future__ import annotations
 from src.config import CAT_COLS, FEATURES, MODEL_LABELS, NUM_COLS
 import streamlit as st
@@ -10,40 +12,23 @@ import pandas as pd
 import numpy as np
 import joblib
 
-# ============================================
-# IMPORT LIBRARY DASAR
-# ============================================
-import sys
 import json
+import sys
 from pathlib import Path
 
-# ============================================
-# MENENTUKAN ROOT PROJECT
-# ============================================
+# WAJIB: daftarkan folder proyek sebelum mengimpor modul src.
+# Lokal: /Users/.../jakartahousepricesalinan
+# Cloud: /mount/src/jakartahousepricelatihan
 ROOT = Path(__file__).resolve().parent.parent
-
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-# ============================================
-# IMPORT LIBRARY DASHBOARD
-# ============================================
-
-# ============================================
-# IMPORT MODUL PENELITIAN
-# ============================================
-
-# Import modul penelitian
-
-ROOT = Path(__file__).resolve().parents[1]
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
 
 st.set_page_config(page_title='Jakarta House Price | Ilsan Hidayatuloh',
                    page_icon='🏠', layout='wide', initial_sidebar_state='expanded')
 
 CSS = '''
-<style>streamli
+<style>
 .stApp {background: #F5F7FA; color: #172B4D;}
 .block-container {padding-top: 1.35rem; padding-bottom: 2.5rem; max-width: 1420px;}
 h1,h2,h3 {color: #122B4A; letter-spacing: -0.025em;}
@@ -104,6 +89,7 @@ def read_model(path):
 output = ROOT / 'outputs'
 needed = [output / 'metadata.json', output / 'cv_comparison.csv',
           output / 'test_comparison.csv', output / 'test_predictions.csv',
+          output / 'segment_error.csv', output / 'cv_per_fold.csv',
           ROOT / 'models' / 'best_model.joblib']
 missing = [str(p.relative_to(ROOT)) for p in needed if not p.exists()]
 if missing:
