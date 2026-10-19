@@ -1,27 +1,29 @@
-"""Dashboard skripsi Jakarta House Price — Ilsan Hidayatuloh.
 
-File ini hanya memuat hasil eksperimen dan pipeline model yang telah dilatih.
-Tidak ada fit maupun tuning ulang pada saat deployment.
-"""
+"""Dashboard Streamlit Skripsi — Ilsan Hidayatuloh."""
+
 from __future__ import annotations
-from src.config import CAT_COLS, FEATURES, MODEL_LABELS, NUM_COLS
-import streamlit as st
-import plotly.graph_objects as go
-import plotly.express as px
-import pandas as pd
-import numpy as np
-import joblib
 
-import json
 import sys
+import json
 from pathlib import Path
 
-# WAJIB: daftarkan folder proyek sebelum mengimpor modul src.
-# Lokal: /Users/.../jakartahousepricesalinan
-# Cloud: /mount/src/jakartahousepricelatihan
+# Lokasi root proyek untuk lokal dan cloud
 ROOT = Path(__file__).resolve().parent.parent
+
+# Tambahkan root agar modul src dikenali
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+
+import joblib
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import streamlit as st
+
+# Import dilakukan setelah root terdaftar
+from src.config import CAT_COLS, FEATURES, MODEL_LABELS, NUM_COLS
+
 
 
 st.set_page_config(page_title='Jakarta House Price | Ilsan Hidayatuloh',
